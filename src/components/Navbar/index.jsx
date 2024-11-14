@@ -59,7 +59,10 @@ const Navbar = () => {
                   className="drawer-overlay"
                 ></label>
                 <ul className="menu bg-red-800 text-white min-h-full w-80 p-4">
-                 {links}
+                  {links}
+                  <div className="mx-auto">
+                    <Button className="mt-6 text-black">Book a table</Button>
+                  </div>
                 </ul>
               </div>
             </div>
